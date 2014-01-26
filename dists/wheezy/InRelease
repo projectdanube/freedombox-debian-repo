@@ -1,0 +1,93 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Petter Reinholdtsen
+Label: freedombox
+Codename: wheezy
+Date: Sun, 29 Dec 2013 13:54:02 UTC
+Architectures: i386 amd64 armel armhf
+Components: main
+Description: Description of repository you are creating
+MD5Sum:
+ 039a8f2305c1147bccae98a60ebf15a8 6877 main/binary-i386/Packages
+ fe8a8894d586e911f4a1104317d43ff5 3009 main/binary-i386/Packages.gz
+ 2e93c5e92a85082680225d9d0c8dc6be 137 main/binary-i386/Release
+ 1d5480cd5366c1ed29a9830bc218ccb1 789 main/debian-installer/binary-i386/Packages
+ 90053863283d6ee1fc5d3945502ba188 468 main/debian-installer/binary-i386/Packages.gz
+ 4da1e6632709a1ffa3b85bb7730ac5aa 6879 main/binary-amd64/Packages
+ 73fbdcc11de99578516d2052817707c0 3006 main/binary-amd64/Packages.gz
+ 9bb1302df31c415665ce22e6f368b044 138 main/binary-amd64/Release
+ 1d5480cd5366c1ed29a9830bc218ccb1 789 main/debian-installer/binary-amd64/Packages
+ 90053863283d6ee1fc5d3945502ba188 468 main/debian-installer/binary-amd64/Packages.gz
+ 40eecca41d9ede9b6d7e610fdf5d7945 6879 main/binary-armel/Packages
+ f4a778741bfec5e83b19d5787b3ae904 3009 main/binary-armel/Packages.gz
+ c50da29bb22af3b299cd86bfc016edb5 138 main/binary-armel/Release
+ 1d5480cd5366c1ed29a9830bc218ccb1 789 main/debian-installer/binary-armel/Packages
+ 90053863283d6ee1fc5d3945502ba188 468 main/debian-installer/binary-armel/Packages.gz
+ 8171c255ab76e2090ee98d3fcd21d3a7 6883 main/binary-armhf/Packages
+ 613689fe8e56b8a9ad6f9e86f48c123c 3011 main/binary-armhf/Packages.gz
+ a81a77037f126e24d3f624867dd0398d 138 main/binary-armhf/Release
+ 1d5480cd5366c1ed29a9830bc218ccb1 789 main/debian-installer/binary-armhf/Packages
+ 90053863283d6ee1fc5d3945502ba188 468 main/debian-installer/binary-armhf/Packages.gz
+ 5eb1a65f2f075cd31c493045e3f525f1 8861 main/source/Sources
+ 0bfe840555bfe3ae2e03b5ff1fbd7c33 2839 main/source/Sources.gz
+ a630aeb76bb08a169de41ef0ee8159eb 139 main/source/Release
+SHA1:
+ e1ddd58c91a317c68b1c804afdfc4f4dbb59fdcc 6877 main/binary-i386/Packages
+ a27cbdcf5462d688d109f51b7df246766d1a4bf3 3009 main/binary-i386/Packages.gz
+ d0aea40237588ee40cd91fb495e1f39a2f1cba1f 137 main/binary-i386/Release
+ 4fd4687143997337308f8df4ae3d1503e61c1b1f 789 main/debian-installer/binary-i386/Packages
+ 78ce4b7983b525858f33462226d021cf69a08446 468 main/debian-installer/binary-i386/Packages.gz
+ f3749d8d76ee2cd2426d5699a6cafc967a4c0c9a 6879 main/binary-amd64/Packages
+ d27190f9a4e47ff90105170dd60500dad837c0ff 3006 main/binary-amd64/Packages.gz
+ c7788c89f141d5b42abe3f39efc0c473725a6f7a 138 main/binary-amd64/Release
+ 4fd4687143997337308f8df4ae3d1503e61c1b1f 789 main/debian-installer/binary-amd64/Packages
+ 78ce4b7983b525858f33462226d021cf69a08446 468 main/debian-installer/binary-amd64/Packages.gz
+ 6c4367b9d4eae727f20ebc1242716bf797543265 6879 main/binary-armel/Packages
+ 26eba35d26d3c1171bd35bbe16a743d06cbd2511 3009 main/binary-armel/Packages.gz
+ 132bae42344313bdb2375d8bbc8d75f9de7d465a 138 main/binary-armel/Release
+ 4fd4687143997337308f8df4ae3d1503e61c1b1f 789 main/debian-installer/binary-armel/Packages
+ 78ce4b7983b525858f33462226d021cf69a08446 468 main/debian-installer/binary-armel/Packages.gz
+ e31c43faccc096a0deb9bbd5a713f62d93ae3219 6883 main/binary-armhf/Packages
+ e7f3eb4772c97772762e05b0a059b2285fbcfd91 3011 main/binary-armhf/Packages.gz
+ 1d7850fa53ce334c209bd3c3ab7ad6c8321a5355 138 main/binary-armhf/Release
+ 4fd4687143997337308f8df4ae3d1503e61c1b1f 789 main/debian-installer/binary-armhf/Packages
+ 78ce4b7983b525858f33462226d021cf69a08446 468 main/debian-installer/binary-armhf/Packages.gz
+ 4d59cf6725b0acef6acec47b6f7877ec46d51020 8861 main/source/Sources
+ 6fc6821db9bddf5b32f36d47255f40bc09699b41 2839 main/source/Sources.gz
+ 91b8f00d3d85e56df156d72bd902db5c5668b75f 139 main/source/Release
+SHA256:
+ 913ff17a7ccb85fe4a5a10739d776811d466067e4e185e4456cadc3b5c4a910f 6877 main/binary-i386/Packages
+ 755c052a8a013b303ea3b5061fd13aba4cbec469963d2662d127ecb7f40542db 3009 main/binary-i386/Packages.gz
+ 06528d14c421085bbd0a5994d5afb00c02203e538e65048255bace269e11d3f9 137 main/binary-i386/Release
+ 27eecd269c5f108053b9e0f9397f55c2715b1c6c5f610337c88908ded0d50f6c 789 main/debian-installer/binary-i386/Packages
+ 0ba7509d03c6fce4db98c18e086a1dd06e4d123ebcd8dd7b1604233947146b92 468 main/debian-installer/binary-i386/Packages.gz
+ 5f1f1fea829db83439b5afee895c49a521200e6d03f96c4e122f28ab43c57405 6879 main/binary-amd64/Packages
+ 2ab9f8d6ca3c1768819247a1cdf8e3db4a3f0e526d5dafa6388ec6c1886cd29d 3006 main/binary-amd64/Packages.gz
+ bdb85f6d400f748471506cb828753414f1d04e28a16892927a9815b027d21864 138 main/binary-amd64/Release
+ 27eecd269c5f108053b9e0f9397f55c2715b1c6c5f610337c88908ded0d50f6c 789 main/debian-installer/binary-amd64/Packages
+ 0ba7509d03c6fce4db98c18e086a1dd06e4d123ebcd8dd7b1604233947146b92 468 main/debian-installer/binary-amd64/Packages.gz
+ 0d1fc0b4f9d595f77474a596322e6b08610bef562549c8c31c7872cfd6f1be54 6879 main/binary-armel/Packages
+ 7ef0c93b30d06db0f984e1ab01b962feea911e6211808249e8815337b14f7ce1 3009 main/binary-armel/Packages.gz
+ 59f3f60d44835e5eb90bc6582e9b5db67a8734aae34efe86996e26ba8101ea24 138 main/binary-armel/Release
+ 27eecd269c5f108053b9e0f9397f55c2715b1c6c5f610337c88908ded0d50f6c 789 main/debian-installer/binary-armel/Packages
+ 0ba7509d03c6fce4db98c18e086a1dd06e4d123ebcd8dd7b1604233947146b92 468 main/debian-installer/binary-armel/Packages.gz
+ 4e5915c717988c52c02b45f95ff74dd56c46633d1470599e7664c35a8b344dce 6883 main/binary-armhf/Packages
+ 0011043b57452728318e0f484518cd4ac1ac4a160a5e485af57eea15d573c90b 3011 main/binary-armhf/Packages.gz
+ 2d72f3c647038cd38e640b600e94c4818e78fae3115f24612fb9f67189ba10ad 138 main/binary-armhf/Release
+ 27eecd269c5f108053b9e0f9397f55c2715b1c6c5f610337c88908ded0d50f6c 789 main/debian-installer/binary-armhf/Packages
+ 0ba7509d03c6fce4db98c18e086a1dd06e4d123ebcd8dd7b1604233947146b92 468 main/debian-installer/binary-armhf/Packages.gz
+ 08bdfa59c99764e6139d021ba298b2eb938264c6c2a67d3a5596e653f91d48a0 8861 main/source/Sources
+ d0e48bcfc18967b36334daf5f3db1be184143325b68604a118bf1e957378203a 2839 main/source/Sources.gz
+ 1cac04f86ee1d08590b8e0b22d43854d1216f9c62f89ce1c03b8e7b6be4fe59f 139 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSwCl6AAoJENybSCa+Glg9yWoH/jH4dE8kUtzr2/D08h3DHnMy
+BnQx957TmmjaJKEK2pSjq8HY+P7oUpyxnXC+8paW4A2tkEOMI1Zo4Jy1gopRgnfm
+O9kyhQNoC7t8SIh1oDqV/EB5f9l4RQKpB0NmTfJt4cs4Md+ng7gczzWZx9xLS2Fp
+nTmsgI7i7xD26VQBPzVRNNeOQ86f5EK/KuL8JcZml4dMTS4R/6Lug+7qkj6Yjz3O
+gL+PMnA5ygsW2ooRB4/0pWac2OL5FlzqnQIvYMu6cd3O7aq6UCvI5bJB5fJHTgmf
+5petL0I8HalRFDGRSNaEhYht8KN4ZVvf0tG9DnWCtZZAasF6/5s8P/lPpr8Xzb8=
+=mKUd
+-----END PGP SIGNATURE-----

@@ -1,0 +1,150 @@
+Package: freedombox-privoxy
+Version: 3.0.19-2-2~0.pere.0
+Architecture: armel
+Maintainer: James Vasile <james@jamesvasile.com>
+Installed-Size: 2379
+Depends: libc6 (>= 2.7), libpcre3 (>= 8.10), zlib1g (>= 1:1.1.4), perl, logrotate, adduser, lsb-base (>= 3.2-13), python-beautifulsoup, python-lxml
+Recommends: doc-base
+Conflicts: privoxy
+Replaces: privoxy
+Homepage: http://www.privoxy.org/
+Priority: optional
+Section: web
+Filename: pool/main/f/freedombox-privoxy/freedombox-privoxy_3.0.19-2-2~0.pere.0_armel.deb
+Size: 777078
+SHA256: 6c742ab34762bca9682d8dba0cea72d4a125c5e3bede10f2eeeced6f39c19201
+SHA1: 355d2cc3e33ec4394dfe51de918cf4f61fdf26da
+MD5sum: 5248b498d6a5fe377201f04b20106d9e
+Description: Privacy enhancing HTTP Proxy
+ This package is based on Privoxy.  Its config has been adjusted to
+ add additional filtering for privacy-related web trackers and to
+ prefer ssl where possible.  Specifically, it pulls in the easyprivacy
+ and https-everywhere lists.
+ .
+ If you are not running a FreedomBox, take some care with this package.
+ It is geared toward the FreedomBox environment.  In particular, it
+ listens on all interfaces and assumes you are protecting yourself via
+ iptables or some upstream firewall.
+ .
+ Privoxy is a web proxy with advanced filtering capabilities for
+ protecting privacy, filtering web page content, managing cookies,
+ controlling access, and removing ads, banners, pop-ups and other
+ obnoxious Internet junk. Privoxy has a very flexible configuration
+ and can be customized to suit individual needs and tastes. Privoxy
+ has application for both stand-alone systems and multi-user networks.
+ .
+ Privoxy is based on Internet Junkbuster (tm).
+
+Package: freedombox-reinholdtsen-archive-keyring
+Version: 0.2013.07.30
+Architecture: all
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Installed-Size: 32
+Depends: gnupg, apt
+Priority: optional
+Section: misc
+Filename: pool/main/f/freedombox-reinholdtsen-archive-keyring/freedombox-reinholdtsen-archive-keyring_0.2013.07.30_all.deb
+Size: 3684
+SHA256: 5e5459e9048aa58ed5e0279e24ac66a3ec12ac469f431cb33aa972afb482a362
+SHA1: 13ad4ffe245c13bd675c836bff179683bae0fccf
+MD5sum: 995135cea56d2b8c2f0cb90fd6da53c4
+Description: GnuPG archive keys of the Debian Edu archive
+ The Debian Edu project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: freedombox-setup
+Version: 0.0.29
+Architecture: all
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Installed-Size: 127
+Depends: apache2 | apache2-mpm-worker, augeas-tools, bridge-utils, build-essential, checkinstall, devio, dialog, dnsmasq, dnsutils, dosfstools, etckeeper, git, haveged, hostname, htop, iftop, iproute, iptables, iputils-ping, isc-dhcp-client, libnss-myhostname, libpython2.7, locales, locales-all, lsof, lua-sec, make, mercurial, monkeysphere, net-tools, openssh-server, pandoc, parted, plinth (>= 0.3.0.0.git.20131007.pere.2), psmisc, python-argparse, python-augeas, python-beautifulsoup, python-bjsonrpc, python-cheetah, python-cherrypy3, python-docutils, python-lxml, python-simplejson, resolvconf, ssl-cert, sudo, tcpdump, uaputl, vim-tiny, wget, zile
+Recommends: batctl, rfkill, wireless-tools
+Priority: optional
+Section: misc
+Filename: pool/main/f/freedombox-setup/freedombox-setup_0.0.29_all.deb
+Size: 26640
+SHA256: ac108e359773142dcabaf29277ca00fd11d17f95bec0c773ef1609432677294c
+SHA1: 2ba8196df9fada83748229473735e5d4a66b36ae
+MD5sum: 4a0332424b3b9af120d14eff887f89d1
+Description: Set up freedombox environment
+ Nice package.
+
+Package: meshfx-node
+Version: 0.0.3
+Architecture: all
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Installed-Size: 50
+Depends: net-tools, rfkill, batctl, wireless-tools, bridge-utils
+Priority: optional
+Section: misc
+Filename: pool/main/m/meshfx-node/meshfx-node_0.0.3_all.deb
+Size: 4106
+SHA256: 9646149e3e700cd4fdc694f1ad27ba5d2687aa31e4a2ee737fb6c688c8fc543d
+SHA1: 57242a851d07406a4a085f94bc1f7fad7c8d62c8
+MD5sum: 076a076d4210122fce7226e49a7dc5ad
+Description: Set up computer as batman-adv mesh node.
+ Configure the first wifi network interface as a batman-adv mesh node
+ and connect it with bridge to the first ethernet interface if it exist.
+
+Package: plinth
+Version: 0.3.0.0.git.20131229-1~pere.0
+Architecture: all
+Maintainer: Tzafrir Cohen <tzafrir@debian.org>
+Installed-Size: 3017
+Depends: python (>= 2.6.6-3), adduser, python-withsqlite (>= 0.0.0~git.20130929), python-simplejson, python-cheetah, python-cherrypy3, python-contract, libjs-jquery, libjs-modernizr, python-passlib (>= 1.6.1), python-bcrypt
+Homepage: https://github.com/NickDaly/Plinth/
+Priority: optional
+Section: python
+Filename: pool/main/p/plinth/plinth_0.3.0.0.git.20131229-1~pere.0_all.deb
+Size: 1907142
+SHA256: 66cde81574cacd3645f61a0139429546bef124d82e03a75ec19c4c5004007f50
+SHA1: e135f4ff49e7e2a8f10dad5614daa0d8cb53196d
+MD5sum: cfaba50f1e9a7b76ee3a19390b0c4c2b
+Description: web front end for administering every aspect of a Freedom Box
+ The Freedom Box is a net appliance conceived by Eben Moglen.  It
+ contains free software and is designed to allow you to interface with
+ the rest of the net under conditions of protected privacy and data
+ security.
+ .
+ The Plinth front end is a web interface to administer the functions of
+ the Freedom Box.  For example, the Freedom Box is a wireless router,
+ and the front end is where you can adjust its settings.
+
+Package: python-exmachina
+Source: exmachina
+Version: 0.0.0~git.20130207-1
+Architecture: all
+Maintainer: Tzafrir Cohen <tzafrir@debian.org>
+Installed-Size: 84
+Depends: python (>= 2.6.6-7~), python (<< 2.8), python-bjsonrpc, python-augeas
+Homepage: https://github.com/jvasile/exmachina
+Priority: extra
+Section: python
+Filename: pool/main/e/exmachina/python-exmachina_0.0.0~git.20130207-1_all.deb
+Size: 10894
+SHA256: a0b9e096540fc35a8283e1d4554d257860785d71789b6e52609ede77f00af071
+SHA1: 2f491936724b2441d867213baa481de2de8ee651
+MD5sum: 7a69dbd2a22d20c509396393a8610dd5
+Description: python module for creating a priv-separation daemon
+ implements both ends (privilaged daemon and unprivilaged python
+ client library) of a crude system configuration message bus, intended for use
+ (initially) with the Plinth web interface to the FreedomBox operating system.
+
+Package: python-withsqlite
+Source: withsqlite
+Version: 0.0.0~git.20130929-1~pere.0
+Architecture: all
+Maintainer: Tzafrir Cohen <tzafrir@debian.org>
+Installed-Size: 84
+Depends: python (>= 2.6.6-3), python (<< 2.8)
+Homepage: https://github.com/NickDaly/withsqlite/
+Priority: extra
+Section: python
+Filename: pool/main/w/withsqlite/python-withsqlite_0.0.0~git.20130929-1~pere.0_all.deb
+Size: 7084
+SHA256: 7e997c5a12fc5caa78bc69abe73849446abfff424803bf11749a707f43688d8e
+SHA1: c4f78687eb49b7a75239332af9f90b4fd2d461a9
+MD5sum: 7a3065256c39a731007abadb53fdf2a4
+Description: uses an sqlite db as a back end for a dict-like object
+ kind of like shelve but with json and sqlite3.
+

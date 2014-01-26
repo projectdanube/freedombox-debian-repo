@@ -1,0 +1,11 @@
+Origin: Petter Reinholdtsen
+Label: freedombox
+Codename: wheezy
+Architectures: i386 amd64 armel armhf source
+Components: main
+UDebComponents: main
+Description: Description of repository you are creating
+SignWith: BE1A583D
+#DebOverride: override
+#UDebOverride: override
+#DscOverride: srcoverride
