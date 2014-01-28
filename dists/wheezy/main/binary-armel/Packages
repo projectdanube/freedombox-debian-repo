@@ -53,19 +53,19 @@ Description: GnuPG archive keys of the Debian Edu archive
  contains the archive keys used for that.
 
 Package: freedombox-setup
-Version: 0.0.29
+Version: 0.0.30
 Architecture: all
 Maintainer: Petter Reinholdtsen <pere@debian.org>
-Installed-Size: 127
-Depends: apache2 | apache2-mpm-worker, augeas-tools, bridge-utils, build-essential, checkinstall, devio, dialog, dnsmasq, dnsutils, dosfstools, etckeeper, git, haveged, hostname, htop, iftop, iproute, iptables, iputils-ping, isc-dhcp-client, libnss-myhostname, libpython2.7, locales, locales-all, lsof, lua-sec, make, mercurial, monkeysphere, net-tools, openssh-server, pandoc, parted, plinth (>= 0.3.0.0.git.20131007.pere.2), psmisc, python-argparse, python-augeas, python-beautifulsoup, python-bjsonrpc, python-cheetah, python-cherrypy3, python-docutils, python-lxml, python-simplejson, resolvconf, ssl-cert, sudo, tcpdump, uaputl, vim-tiny, wget, zile
+Installed-Size: 131
+Depends: apache2 | apache2-mpm-worker, augeas-tools, bridge-utils, build-essential, checkinstall, devio, dialog, dnsmasq, dnsutils, dosfstools, etckeeper, git, haveged, hostname, htop, iftop, iproute, iptables, iputils-ping, isc-dhcp-client, libnss-myhostname, libpython2.7, locales, locales-all, lsof, lua-sec, macchanger, make, mercurial, monkeysphere, net-tools, ntp, openssh-server, parted, plinth (>= 0.3.0.0.git.20131007.pere.2), psmisc, python-argparse, python-augeas, python-beautifulsoup, python-bjsonrpc, python-cheetah, python-cherrypy3, python-docutils, python-lxml, python-simplejson, resolvconf, ssl-cert, sudo, tcpdump, uaputl, vim-tiny, wget, zile
 Recommends: batctl, rfkill, wireless-tools
 Priority: optional
 Section: misc
-Filename: pool/main/f/freedombox-setup/freedombox-setup_0.0.29_all.deb
-Size: 26640
-SHA256: ac108e359773142dcabaf29277ca00fd11d17f95bec0c773ef1609432677294c
-SHA1: 2ba8196df9fada83748229473735e5d4a66b36ae
-MD5sum: 4a0332424b3b9af120d14eff887f89d1
+Filename: pool/main/f/freedombox-setup/freedombox-setup_0.0.30_all.deb
+Size: 28248
+SHA256: 72a15d77015656910b741650035547672351ac749a454f8edd88bdf10d0d9577
+SHA1: 184a65e7e67ecce5270587d8dcbf74031a6c1387
+MD5sum: c6f4d3a2ba0d82d82c533eaa5445910c
 Description: Set up freedombox environment
  Nice package.
 

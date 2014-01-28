@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 8)
 Package-List: 
  freedombox-setup deb misc optional
 Checksums-Sha1: 
- 285ff3c41aff86257e19a46254c7a042b04be82e 227015 freedombox-setup_0.0.30.tar.gz
+ 3e3f12e652cfde7d95257f8bf0707afa1f29d9ee 38197 freedombox-setup_0.0.30.tar.gz
 Checksums-Sha256: 
- 6c774adc411288bb6215d68af7e40a45ab39d65be9d7e22d57a2238756f3b51c 227015 freedombox-setup_0.0.30.tar.gz
+ c13638420587adb095841b2690281b2337cb391944f3bdb4dc0bdfa1417ad096 38197 freedombox-setup_0.0.30.tar.gz
 Files: 
- bb3d3e4570848cd47ec9987cc8ad0153 227015 freedombox-setup_0.0.30.tar.gz
+ 4b7b9a5279bd2a716e0b9e62b61146c0 38197 freedombox-setup_0.0.30.tar.gz
